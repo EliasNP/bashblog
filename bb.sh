@@ -20,18 +20,18 @@ global_variables() {
     global_software_version="2.8"
 
     # Blog title
-    global_title="My fancy blog"
+    global_title="La Bitacora Personal de @EliasNieva"
     # The typical subtitle for each blog
-    global_description="A blog about turtles and carrots"
+    global_description="Una Bitacora con documentos, noticias y cajon de sastre personal"
     # The public base URL for this blog
-    global_url="http://example.com/blog"
+    global_url="https://3ln1pr1.github.io/EliasNieva/"
 
     # Your name
-    global_author="John Smith"
+    global_author="@EliasNieva"
     # You can use twitter or facebook or anything for global_author_url
-    global_author_url="http://twitter.com/example" 
+    global_author_url="http://twitter.com/EliasNieva" 
     # Your email
-    global_email="john@smith.com"
+    global_email="correo@eliasnieva.com"
 
     # CC by-nc-nd is a good starting point, you can change this to "&copy;" for Copyright
     global_license="CC by-nc-nd"
@@ -45,10 +45,10 @@ global_variables() {
 
     # Leave this empty (i.e. "") if you don't want to use feedburner, 
     # or change it to your own URL
-    global_feedburner=""
+    global_feedburner="http://feeds.feedburner.com/BitacoraEliasNieva"
 
     # Change this to your username if you want to use twitter for comments
-    global_twitter_username=""
+    global_twitter_username="EliasNieva"
     # Set this to false for a Twitter button with share count. The cookieless version
     # is just a link.
     global_twitter_cookieless="true"
@@ -56,7 +56,7 @@ global_variables() {
     global_twitter_search="twitter"
 
     # Change this to your disqus username to use disqus for comments
-    global_disqus_username=""
+    global_disqus_username="@EliasNieva"
 
 
     # Blog generated files
@@ -106,27 +106,27 @@ global_variables() {
 
     # Localization and i18n
     # "Comments?" (used in twitter link after every post)
-    template_comments="Comments?"
+    template_comments="Comentarios?"
     # "Read more..." (link under cut article on index page)
-    template_read_more="Read more..."
+    template_read_more="Leer Más"
     # "View more posts" (used on bottom of index page as link to archive)
-    template_archive="View more posts"
+    template_archive="Ver más Articulos"
     # "All posts" (title of archive page)
-    template_archive_title="All posts"
+    template_archive_title="Todos los Articulos"
     # "All tags"
-    template_tags_title="All tags"
+    template_tags_title="Todas las Etiquetas"
     # "posts" (on "All tags" page, text at the end of each tag line, like "2. Music - 15 posts")
-    template_tags_posts="posts"
+    template_tags_posts="Articulo"
     template_tags_posts_2_4="posts"  # Some slavic languages use a different plural form for 2-4 items
     template_tags_posts_singular="post"
     # "Posts tagged" (text on a title of a page with index of one tag, like "My Blog - Posts tagged "Music"")
     template_tag_title="Posts tagged"
     # "Tags:" (beginning of line in HTML file with list of all tags for this article)
-    template_tags_line_header="Tags:"
+    template_tags_line_header="Etiquetas:"
     # "Back to the index page" (used on archive page, it is link to blog index)
-    template_archive_index_page="Back to the index page"
+    template_archive_index_page="Volver a la Pagina de Inicio"
     # "Subscribe" (used on bottom of index page, it is link to RSS feed)
-    template_subscribe="Subscribe"
+    template_subscribe="Subscribete"
     # "Subscribe to this page..." (used as text for browser feed button that is embedded to html)
     template_subscribe_browser_button="Subscribe to this page..."
     # "Tweet" (used as twitter text button for posting to twitter)
