@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel><title>My fancy blog</title><link>http://example.com/blog/index.html</link>
+<description>A blog about turtles and carrots</description><language>en</language>
+<lastBuildDate>Tue, 03 Sep 2019 12:03:30 +0200</lastBuildDate>
+<pubDate>Tue, 03 Sep 2019 12:03:30 +0200</pubDate>
+<atom:link href="http://example.com/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Primer Post
+</title><description><![CDATA[
+
+<p>esta parte es <b>html</b> blog post. Así que hay que editarlo en <H3>Html.</h3></p>
+
+<p>Tags: <a href='tag_Noticias.html'>Noticias</a>, <a href='tag_linux.html'>linux</a>, <a href='tag_github.html'>github</a>, <a href='tag_post.html'>post</a>, <a href='tag_ejemplo.html'>ejemplo</a></p>
+<!-- text end -->
+]]></description><link>http://example.com/blog/primer-post.html</link>
+<guid>http://example.com/blog/./primer-post.html</guid>
+<dc:creator>John Smith</dc:creator>
+<pubDate>Tue, 03 Sep 2019 12:03:23 +0200</pubDate></item>
+</channel></rss>
