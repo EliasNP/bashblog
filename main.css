@@ -1,11 +1,11 @@
 body{font-family:Georgia,"Times New Roman",Times,serif;margin:0;padding:0;background-color:#F3F3F3;}
         #divbodyholder{padding:5px;background-color:#8ede83;width:100%;max-width:874px;margin:24px auto;}
         #divbody{border:solid 1px #ccc;background-color:#fff;padding:0px 48px 24px 48px;top:0;}
-        .headerholder{background-color:#f9f9f9;border-top:solid 1px #ccc;border-left:solid 1px #ccc;border-right:solid 1px #ccc;}
-        .header{width:100%;max-width:800px;margin:0px auto;padding-top:24px;padding-bottom:8px;}
+        .headerholder{background-color:#f9f9f9;border-top:solid 1px #cd5182;border-left:solid 1px #ccc;border-right:solid 1px #ccc;}
+        .header{width:100%;max-width:800px;margin:0px auto;padding-top:24px;padding-bottom:8px;color:#ffa500}
         .content{margin-bottom:5%;}
         .nomargin{margin:0;}
-        .description{margin-top:10px;border-top:solid 1px #666;padding:10px 0;}
+        .description{margin-top:10px;border-top:solid 1px #7f352d;padding:10px 0;}
         h3{font-size:20pt;width:100%;font-weight:bold;color:#9d3133;margin-top:32px ;margin-bottom:0;}
         .clear{clear:both;}
         #footer{padding-top:10px;border-top:solid 1px #666;color:#333333;text-align:center;font-size:small;font-family:"Courier New","Courier",monospace;}
