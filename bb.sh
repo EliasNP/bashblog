@@ -69,7 +69,7 @@ global_variables() {
 
     # Non blogpost files. Bashblog will ignore these. Useful for static pages and custom content
     # Add them as a bash array, e.g. non_blogpost_files=("news.html" "test.html")
-    non_blogpost_files=()
+    non_blogpost_files=("contacto.html" "test.html")
 
     # feed file (rss in this case)
     blog_feed="feed.rss"
@@ -90,7 +90,7 @@ global_variables() {
     # personalized header and footer (only if you know what you're doing)
     # DO NOT name them .header.html, .footer.html or they will be overwritten
     # leave blank to generate them, recommended
-    header_file=""
+    header_file="header.html"
     footer_file=""
     # extra content to add just after we open the <body> tag
     # and before the actual blog content
