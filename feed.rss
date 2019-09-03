@@ -2,9 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>La Bitacora Personal de @EliasNieva</title><link>https://3ln1pr1.github.io/EliasNieva//index.html</link>
 <description>Una Bitacora con documentos, noticias y cajon de sastre personal</description><language>en</language>
-<lastBuildDate>Tue, 03 Sep 2019 13:49:00 +0200</lastBuildDate>
-<pubDate>Tue, 03 Sep 2019 13:49:00 +0200</pubDate>
+<lastBuildDate>Tue, 03 Sep 2019 16:34:32 +0200</lastBuildDate>
+<pubDate>Tue, 03 Sep 2019 16:34:32 +0200</pubDate>
 <atom:link href="https://3ln1pr1.github.io/EliasNieva//feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Truco shell: repetir ejecución del comando anterior como root (sudo) de rm-rf.es
+</title><description><![CDATA[
+
+<p>
+
+<code>
+De: https://rm-rf.es/bash-repetir-comando-previo-sudo-root/
+</code>
+<Br>
+Una entrada rápida para explicar cómo repetir la ejecución del último comando en la shell bash como root. La utilidad reside en evitar tener que volver a especificar el comando completo cuando queremos volver a ejecutar el comando anterior, esta vez, como root (ya que no nos hemos dado cuenta y lo hemos ejecutado con un usuario sin privilegios:
+<code>
+$ sudo !!
+</code>
+
+Así de sencillo, !! significa ejecutar el comando anterior, por lo que podemos añadir sudo delante para ejecutarlo con privilegios de superusuario.
+<Br>
+Un ejemplo que confirma que !! repite la ejecución del comando previo:
+<Br>
+<code>
+$ ps
+  PID TTY          TIME CMD
+ 2015 pts/0    00:00:00 bash
+ 2029 pts/0    00:00:00 ps
+$ !!
+ps
+  PID TTY          TIME CMD
+ 2015 pts/0    00:00:00 bash
+ 2030 pts/0    00:00:00 ps
+</code>
+Y un ejemplo con sudo:
+<Br>
+<code>
+$ head /etc/sudoers
+head: cannot open '/etc/sudoers' for reading: Permission denied
+$ sudo !!
+sudo head /etc/sudoers
+## Sudoers allows particular users to run various commands as
+## the root user, without needing the root password.
+##
+## Examples are provided at the bottom of the file for collections
+## of related commands, which can then be delegated out to particular
+## users or groups.
+## 
+## This file must be edited with the 'visudo' command.
+
+## Host Aliases
+</code>
+
+</p>
+
+<p>Etiquetas: <a href='tag_Shell.html'>Shell</a>, <a href='tag_Bash.html'>Bash</a>, <a href='tag_Linux.html'>Linux</a>, <a href='tag_Sudo.html'>Sudo</a>, <a href='tag_Commando.html'>Commando</a>, <a href='tag_CLI.html'>CLI</a>, <a href='tag_Consola.html'>Consola</a></p>
+<!-- text end -->
+<p id='twitter'><a href="https://3ln1pr1.github.io/EliasNieva//truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html#disqus_thread">Comentarios?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://3ln1pr1.github.io/EliasNieva//truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html"
+ data-via="EliasNieva"
+>Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</p>
+]]></description><link>https://3ln1pr1.github.io/EliasNieva//truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html</link>
+<guid>https://3ln1pr1.github.io/EliasNieva//./truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html</guid>
+<dc:creator>@EliasNieva</dc:creator>
+<pubDate>Tue, 03 Sep 2019 16:34:30 +0200</pubDate></item>
 <item><title>
 Primer Post
 </title><description><![CDATA[
