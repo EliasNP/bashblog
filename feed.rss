@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>La Bitacora Personal de @EliasNieva</title><link>https://3ln1pr1.github.io/EliasNieva//index.html</link>
 <description>Una Bitacora con documentos, noticias y cajon de sastre personal</description><language>en</language>
-<lastBuildDate>Wed, 04 Sep 2019 16:50:07 +0200</lastBuildDate>
-<pubDate>Wed, 04 Sep 2019 16:50:07 +0200</pubDate>
+<lastBuildDate>Wed, 04 Sep 2019 16:53:15 +0200</lastBuildDate>
+<pubDate>Wed, 04 Sep 2019 16:53:15 +0200</pubDate>
 <atom:link href="https://3ln1pr1.github.io/EliasNieva//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 Guia de MArkDown propia
 </title><description><![CDATA[
 
-<p># Manual de **MarkDown** como Guia.
+# Manual de **MarkDown** como Guia.
 ###### Apuntando aqui como escribir en ` MarkDown ` como guia facil de uso para futuras dudas.
 
 ***
@@ -74,7 +74,7 @@ Al Igual que con los enlaces se puede hacer llamadas a variables.
 Para poder crear resaltos en el texto solo hay que empezar la frase con ** > ** delante de las comillas como en el ejemplo
 \> "Texto a Resaltar"
 > "Texto a Resaltar"
-</p>
+
 
 <p>Etiquetas: <a href='tag_MarkDown.html'>MarkDown</a>, <a href='tag_Html.html'>Html</a>, <a href='tag_Code.html'>Code</a></p>
 <!-- text end -->
