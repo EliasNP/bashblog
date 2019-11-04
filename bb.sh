@@ -24,7 +24,7 @@ global_variables() {
     # The typical subtitle for each blog
     global_description="Una Bitacora con documentos, noticias y cajon de sastre personal"
     # The public base URL for this blog
-    global_url="https://3ln1pr1.github.io/EliasNieva/"
+    global_url="https://EliasNp.github.io/bashblog/"
 
     # Your name
     global_author="@EliasNieva"
@@ -954,7 +954,7 @@ create_includes() {
         protected_mail=${global_email//@/&#64;}
         protected_mail=${protected_mail//./&#46;}
         echo "<div id=\"footer\">$global_license <a href=\"$global_author_url\">$global_author</a> &mdash; <a href=\"mailto:$protected_mail\">$protected_mail</a></Br>"
-	echo 'Contacta conmigo directamente: <a href=\"https://t.me/EliasNieva">EliasNieva en Telegram</a>o <a href=\"https://mastodon.social/@3ln1pr1">EliasNieva en Mastodon.social</a></Br>'
+	echo 'Contacta conmigo directamente: <a href=\"https://t.me/EliasNieva\">EliasNieva en Telegram</a>o <a href=\"https://mastodon.social/@3ln1pr1\">EliasNieva en Mastodon.social</a></Br>'
         echo 'Bitacora generada con <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, uns script simple para crear bitacoras faciles como esta.</div>'
         } >> ".footer.html"
     fi
