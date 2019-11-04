@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>La Bitacora Personal de @EliasNieva</title><link>https://3ln1pr1.github.io/EliasNieva//index.html</link>
 <description>Una Bitacora con documentos, noticias y cajon de sastre personal</description><language>en</language>
-<lastBuildDate>Mon, 04 Nov 2019 15:51:43 +0100</lastBuildDate>
-<pubDate>Mon, 04 Nov 2019 15:51:43 +0100</pubDate>
+<lastBuildDate>Mon, 04 Nov 2019 15:54:37 +0100</lastBuildDate>
+<pubDate>Mon, 04 Nov 2019 15:54:37 +0100</pubDate>
 <atom:link href="https://3ln1pr1.github.io/EliasNieva//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-Guia de MArkDown propia
 Guia de MArkDown propia
 </title><description><![CDATA[
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
@@ -107,10 +106,9 @@ Para poder crear resaltos en el texto solo hay que empezar la frase con ** > ** 
 </code>
 
 <p>Etiquetas: <a href='tag_<a href='tag_MarkDown.html'>MarkDown</a>.html'><a href='tag_MarkDown.html'>MarkDown</a></a>, <a href='tag_<a href='tag_Html.html'>Html</a>.html'><a href='tag_Html.html'>Html</a></a>, <a href='tag_<a href='tag_Code.html'>Code</a>.html'><a href='tag_Code.html'>Code</a></a></p>
-
 <!-- text end -->
-<p id='twitter'><a href="https://3ln1pr1.github.io/EliasNieva//doctype-html-public--w3cdtd-xhtml-10-stricten-httpwwww3orgtrxhtml1dtdxhtml1-strictdtd.html#disqus_thread">Comentarios?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://3ln1pr1.github.io/EliasNieva//doctype-html-public--w3cdtd-xhtml-10-stricten-httpwwww3orgtrxhtml1dtdxhtml1-strictdtd.html"
+<p id='twitter'><a href="https://3ln1pr1.github.io/EliasNieva//guia-de-markdown-propia.html#disqus_thread">Comentarios?</a> &nbsp;
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://3ln1pr1.github.io/EliasNieva//guia-de-markdown-propia.html"
  data-via="EliasNieva"
 >Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </p>
@@ -118,120 +116,7 @@ Para poder crear resaltos en el texto solo hay que empezar la frase con ** > ** 
 <guid>https://3ln1pr1.github.io/EliasNieva//./doctype-html-public--w3cdtd-xhtml-10-stricten-httpwwww3orgtrxhtml1dtdxhtml1-strictdtd.html</guid>
 <dc:creator>@EliasNieva
 
-@EliasNieva
-
-@EliasNieva
-
-
-<code>
-# Manual de **MarkDown** como Guia.
-###### Apuntando aqui como escribir en ` MarkDown ` como guia facil de uso para futuras dudas.
-
-***
-
-## 1. Lección (**Negrita** e _Cursiva_)
-
-Para marcar un texto en **Negrita** usamos 2 \* como por ejemplo \*\* y lo cerramos Igual \*\*  
-\*\* Ejemplo \*\* = **Ejemplo**
-
-Para marcar un texto en _cursiva_ simplemente insertamos un \_ delante y detras de la palabra a resaltar
-\_Ejemplo\_ = _Ejemplo_
-
-Estas dos opciones son compatible he intercambiables 
-_**Ejemplo en Negrita y cursiva**_ = \_\*\*Ejemplo en Negrita y cursiva\*\*\_ 
-**_Ejemplo2_** = \*\*\_Ejemplo2\_\*\*
-
-## 2. Cabeceras de Diferente Orden 
-
-	# Cabecera uno
-	## Cabecera dos
-	### Cabecera tres
-	#### Cabecera cuatro
-	##### Cabecera cinco
-	###### Cabecera seis
-
-## 3. Enlaces a Links
-
-Enlaces se definen como sigue \[Texto del enlace](direccion_del_enlace)
-Ejemplo: Las Ultimas Noticias \[De la BBC]\(http://www.bbc.com/news)
-Las Ultimas Noticias [De la BBC](http://www.bbc.com/news)
-
-   1. Enlaces multiples como variables. Ejemplo:
-
-		Do you want to [see something fun][a fun place]?
-
-		Well, do I have [the website for you][another fun place]!
-
-	[a fun place]: www.zombo.com
-
-	[another fun place]: www.stumbleupon.com
-
-## 4. Enlaces a Imagenes
-
-El Texto a declarar como Alt en la Imagen ![] seguido del enlace Url a la Imagen ()
-\!\[Bonito Gatito ]\(https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)  
->![Bonito Gatito ](https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg)
-
-   1. Imagenes con Referencia.  Ejemplo:
-Al Igual que con los enlaces se puede hacer llamadas a variables.
-![Black cat][Black]
-![Orange cat][Orange]
-[Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg
-[Orange]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
-   
->\!\[Black cat][Black]
-\!\[Orange cat][Orange]
-\[Black]: https://upload.wikimedia.org/wikipedia/commons/a/a3/81_INF_DIV_SSI.jpg
-\[Orange]: http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png
-
-## 5. Crear resaltos en el texto 
-
-Para poder crear resaltos en el texto solo hay que empezar la frase con ** > ** delante de las comillas como en el ejemplo
-\> "Texto a Resaltar"
-> "Texto a Resaltar"
-</code>
-
-<p>Etiquetas: <a href='tag_<a href='tag_MarkDown.html'>MarkDown</a>.html'><a href='tag_MarkDown.html'>MarkDown</a></a>, <a href='tag_<a href='tag_Html.html'>Html</a>.html'><a href='tag_Html.html'>Html</a></a>, <a href='tag_<a href='tag_Code.html'>Code</a>.html'><a href='tag_Code.html'>Code</a></a></p>
-
-<!-- text end -->
-<p id='twitter'><a href="https://3ln1pr1.github.io/EliasNieva//doctype-html-public--w3cdtd-xhtml-10-stricten-httpwwww3orgtrxhtml1dtdxhtml1-strictdtd.html#disqus_thread">Comentarios?</a> &nbsp;
-<a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://3ln1pr1.github.io/EliasNieva//doctype-html-public--w3cdtd-xhtml-10-stricten-httpwwww3orgtrxhtml1dtdxhtml1-strictdtd.html"
- data-via="EliasNieva"
->Tweet</a>	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</p>
-<!-- entry end -->
-
-<div id="disqus_thread">
-            <script type="text/javascript">
-            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-               var disqus_shortname = '@EliasNieva'; // required: replace example with your forum shortname
-
-            /* * * DONT EDIT BELOW THIS LINE * * */
-            (function() {
-            var dsq = document.createElement("script"); dsq.type = "text/javascript"; dsq.async = true;
-            dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-            (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(dsq);
-            })();
-            </script>
-            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-<div id="footer">CC by-nc-nd <a href="http://twitter.com/EliasNieva">@EliasNieva</a> &mdash; <a href="mailto:correo&#64;eliasnieva&#46;com">correo&#64;eliasnieva&#46;com</a></Br>
-Contacta conmigo directamente: <a href=\"https://t.me/EliasNieva">EliasNieva en Telegram</a>o <a href=\"https://mastodon.social/@3ln1pr1">EliasNieva en Mastodon.social</a></Br>
-Bitacora generada con <a href="https://github.com/cfenollosa/bashblog">bashblog</a>, uns script simple para crear bitacoras faciles como esta.
-
-<script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = '@EliasNieva'; // required: replace example with your forum shortname
-
-        /* * * DONT EDIT BELOW THIS LINE * * */
-        (function () {
-        var s = document.createElement("script"); s.async = true;
-        s.type = "text/javascript";
-        s.src = "//" + disqus_shortname + ".disqus.com/count.js";
-        (document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
-    }());
-    </script>
-</body></html></dc:creator>
+@EliasNieva</dc:creator>
 <pubDate>Wed, 04 Sep 2019 16:58:33 +0200</pubDate></item>
 <item><title>
 Truco shell: repetir ejecución del comando anterior como root (sudo): De rm-rf.es
