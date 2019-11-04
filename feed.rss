@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title>La Bitacora Personal de @EliasNieva</title><link>https://3ln1pr1.github.io/EliasNieva//index.html</link>
 <description>Una Bitacora con documentos, noticias y cajon de sastre personal</description><language>en</language>
-<lastBuildDate>Wed, 04 Sep 2019 17:04:34 +0200</lastBuildDate>
-<pubDate>Wed, 04 Sep 2019 17:04:34 +0200</pubDate>
+<lastBuildDate>Mon, 04 Nov 2019 15:51:43 +0100</lastBuildDate>
+<pubDate>Mon, 04 Nov 2019 15:51:43 +0100</pubDate>
 <atom:link href="https://3ln1pr1.github.io/EliasNieva//feed.rss" rel="self" type="application/rss+xml" />
 <item><title>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -286,6 +286,7 @@ sudo head /etc/sudoers<Br>
 <p>Etiquetas: <a href='tag_Shell.html'>Shell</a>, <a href='tag_Bash.html'>Bash</a>, <a href='tag_Linux.html'>Linux</a>, <a href='tag_Sudo.html'>Sudo</a>, <a href='tag_Commando.html'>Commando</a>, <a href='tag_CLI.html'>CLI</a>, <a href='tag_Consola.html'>Consola</a></p>
 
 
+
 <!-- text end -->
 <p id='twitter'><a href="https://3ln1pr1.github.io/EliasNieva//truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html#disqus_thread">Comentarios?</a> &nbsp;
 <a href="https://twitter.com/share" class="twitter-share-button" data-text="&lt;Type your comment here but please leave the URL so that other people can follow the comments&gt;" data-url="https://3ln1pr1.github.io/EliasNieva//truco-shell-repetir-ejecucion-del-comando-anterior-como-root-sudo-de-rm-rfes.html"
@@ -303,6 +304,7 @@ Primer Post
 <p>Hola Mundo, Este es mi primer Articulo de Prueba</p><center><img scr="https://3ln1pr1.github.io/icon/repository-open-graph-template_OK.png"></center>
 
 <p>Tags: <a href='tag_Noticias.html'>Noticias</a>, <a href='tag_linux.html'>linux</a>, <a href='tag_github.html'>github</a>, <a href='tag_post.html'>post</a>, <a href='tag_ejemplo.html'>ejemplo</a></p>
+
 
 
 
